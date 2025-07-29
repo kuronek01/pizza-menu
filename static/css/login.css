@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../static/images/background login.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.login-wrapper {
+  display: flex;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* KIRI */
+.login-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.login-left img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+/* KANAN */
+.login-right {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+.login-right h1, .login-right h2 {
+  font-family: 'Impact', sans-serif;
+  margin: 0;
+  font-size: 40px;
+}
+
+.login-right h2 {
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-form .forgot {
+  display: block;
+  text-align: right;
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  background-color: #8edc3a;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Separator */
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.separator span {
+  flex: 1;
+  height: 1px;
+  background-color: #000;
+}
+
+.separator p {
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+/* Medsos */
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Register */
+.register {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.daftar {
+  color: #ff3f00;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 8px;
+}

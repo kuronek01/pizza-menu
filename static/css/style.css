@@ -1,0 +1,128 @@
+body{
+   background: linear-gradient(to bottom, #FE4346 10%, #CF3B3D 90%);
+   height: fit-content;
+}
+img {
+  border: none;
+  box-shadow: none;
+  filter: none;
+}
+.navbar{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #FE4346 !important;
+    height: 120px;
+}
+.navbar a{
+    font-size: 20px;
+    color: white;
+}
+.logo-right{
+    width: 150px;
+    height: 150px;
+    background-color: #FFCC00;
+    margin-right: 150px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.logo-left{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-right: 150px;
+    margin-left: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    fill: white;
+}
+.banner img{
+    width: 100%;
+    border: none;
+}
+.menu-text{
+    width: 90%;
+    margin: auto;
+    border-bottom: 5px solid #333;
+}
+.menu-tabs {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 50%;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.tab-btn {
+  background: transparent;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 500px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.tab-btn:hover,
+.tab-btn.active {
+  border-color: yellow;
+}
+
+.menu-content {
+  max-width: 1000px; /* match grid */
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.pizza-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0 auto;    /* this centers the container */
+  padding: 0 16px;   /* optional: adds horizontal breathing room */
+}
+
+
+.pizza-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.pizza-item img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+  margin: auto;
+}
+.order-btn {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 16px;
+  max-width: 120px;
+  background-color: #FFCC00;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #e24629;
+}

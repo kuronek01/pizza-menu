@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Jet 2 Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}" />
+    <style>
+    </style>
+  </head>
+  <body style="background-image: url('../static/images/background login.png'); background-size: cover; background-position: center;">
+    <div class="login-wrapper">
+      <!-- Bagian Kiri -->
+      <div class="login-left">
+
+      </div>
+
+      <!-- Bagian Kanan -->
+      <div class="login-right">
+        <h1>WELCOME TO</h1>
+        <h2>PIZZA JET 2!</h2>
+
+        <form class="login-form" action="{{ url_for('login') }}" method="post" autocomplete="off">
+          <input type="text" name="email" placeholder="email" required />
+          <input type="password" name="password" placeholder="PASSWORD" required />
+          <a href="#" class="forgot">Lupa Kata Sandi?</a>
+          <button type="submit" class="login-btn">LOGIN</button>
+        </form>
+
+        <div class="separator">
+          <span></span>
+          <p>ATAU</p>
+          <span></span>
+        </div>
+
+        <div class="social-buttons">
+          <button class="social google">
+            <img src="../static/images/google.png" alt="Google" /> Google
+          </button>
+          <button class="social facebook">
+            <img src="../static/images/facebook.png" alt="Facebook" /> Facebook
+          </button>
+        </div>
+
+        <div class="register">
+          <span>Belum Punya Akun?</span>
+          <a href="{{ url_for('register') }}" class="daftar">Daftar</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

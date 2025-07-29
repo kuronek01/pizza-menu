@@ -1,0 +1,28 @@
+/* globals.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #666; /* Warna latar belakang abu-abu gelap */
+    color: #fff; /* Warna teks putih */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Variabel Global */
+:root {
+    --primary-color: #fff; /* Warna utama (putih) */
+    --secondary-color: #666; /* Warna sekunder (abu-abu gelap) */
+    --accent-color: #9ACD32; /* Warna aksen (lime green) */
+    --border-radius: 5px; /* Radius sudut */
+    --padding: 1rem; /* Padding default */
+}
